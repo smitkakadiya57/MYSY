@@ -1,0 +1,199 @@
+.header_poster img {
+    max-width: 10rem;
+}
+.header_title h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 2.5rem;
+}
+.header_title p {
+    font-size: 1.2rem;
+}
+
+header {
+    background-color: rgb(251, 251, 251);
+}
+
+main{
+    /* border: 2px solid green ; */
+    width: 100%;
+   padding-bottom: 5rem;
+}
+.current_update{
+    /* border: 2px solid red ; */
+    width: 100%;
+    padding: 1rem ;
+    flex-wrap: wrap-reverse;
+}
+
+.news_panel{
+    /* border: 2px solid rgb(0, 68, 255); */
+   min-width: 10rem;
+   max-width: 40%;
+    
+}
+
+.news_panel section {
+    overflow: hidden;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.1rem black ;
+    width: 100%;
+}
+.panel_title{
+    /* border: 2px solid red ; */
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
+.panel_title i {
+font-size: 1.2rem ;
+text-shadow: 0 0 0.1rem black ;
+}
+
+.panel_title img {
+    display: inline;
+}
+.downloads .panel_title{
+    background-color: green;
+}
+
+.current_event .panel_title{
+    background-color: red;
+}
+.imp_links .panel_title{
+    background-color: rgb(230, 151, 4);
+}
+.panel_item_container{
+    height: 10rem;
+}
+
+.panel_item {
+    padding: 0.3rem 1rem ;
+    border-bottom: 0.05rem solid rgb(221, 221, 221);
+}
+
+
+.motivation_panel{
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+.motivation_panel img {
+    max-width: 40rem;
+    filter: drop-shadow(0 0 0.5rem black);
+}
+.motivation_panel p {
+    position: absolute;
+    width: 10rem;
+    text-align: center;
+    font-family: 'Andada Pro', serif;
+    font-size: 1.5rem;
+}
+
+
+.app_heading{
+    color: red;
+    border-bottom: 0.2rem solid rgb(144, 4, 4) ;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.app_sec{
+    /* border: 2px solid red ; */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    /* box-shadow: 0 0.2rem 0.1rem 0.3rem rgb(230, 11, 11) ; */
+    max-width: 20rem;
+    box-shadow: 0 0 0.3rem grey ;
+}
+
+.app_fresh{
+    /* box-shadow: 0 0.2rem 0.1rem 0.3rem rgb(9, 116, 9); */
+    border-bottom: 0.5rem solid rgb(9, 116, 9);
+}
+
+.app_ren{
+    /* box-shadow: 0 0.2rem 0.1rem 0.3rem rgb(16, 14, 134); */
+    border-bottom: 0.5rem solid rgb(16, 14, 134);
+}
+.app_del{
+    /* box-shadow: 0 0.2rem 0.1rem 0.3rem rgb(245, 88, 15); */
+    border-bottom: 0.5rem solid rgb(245, 88, 15);
+}
+
+.app_sec p:nth-child(1){
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+.app_sec p:nth-child(2){
+    text-align: center;
+}
+
+.app_btn{
+    /* border: 2px solid red ; */
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    background: rgb(248, 163, 6);
+    outline: none;
+    box-shadow: 0 0 0.2rem black ;
+    color: white;
+    text-shadow: 0 0 0.1rem black;
+    border-radius: 0.2rem;
+    transition: all 0.3s ease;
+}
+
+.app_btn:hover{
+  
+    border-radius: 0.5rem;
+}
+.bg-orange{
+    background: rgb(245, 88, 15);
+}
+
+.bg-green{
+    background: rgb(9, 116, 9);
+}
+
+.bg-blue{
+    background: rgb(16, 14, 134);
+}
+
+
+
+
+/* footer css starts  */
+footer{
+    background: rgb(51, 44, 47);
+    color: white;
+    text-shadow: 0 0.1rem  0.3rem rgb(75, 73, 73);
+    padding: 2rem 0;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f_item_container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+.f_item_title{
+border-bottom: 2px solid white;
+margin-bottom: 1rem;
+}
+.f_item{
+    display: flex;
+    align-items: center;
+}
+.f_item i {
+    font-size: 1.5rem ;
+   width: 3rem;
+    text-align: center;
+    
+}
+.f_globe{
+font-size: 10rem;
+}

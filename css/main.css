@@ -1,0 +1,59 @@
+/* gogle font link  */
+
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&family=Epilogue&family=Manrope&family=Roboto&family=Satisfy&family=Sora&display=swap');
+
+/*
+font-family: 'Andada Pro', serif;
+font-family: 'Epilogue', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Sora', sans-serif;
+*/
+
+/* font awesom cdn link  */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    font-size: 15px;
+}
+
+.container{
+    max-width: 1250px;
+    margin: auto;
+}
+
+.d-flex-row{
+display: flex;
+flex-wrap: wrap;
+column-gap: 2rem;
+align-items: center;
+}
+
+.d-flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.5rem;
+}
+
+.main_wrapper{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top:auto;
+    width: 100%;
+}
